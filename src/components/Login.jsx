@@ -14,7 +14,7 @@ import io from "socket.io-client";
 
 const CssTextField = styled(TextField)({});
 
-const socket = io.connect("http://localhost:3001");
+const socket = io.connect("https://sembang-yuk.herokuapp.com/"); 
 
 function Login() {
   const [username, setUsername] = useState("");
