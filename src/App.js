@@ -1,11 +1,11 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import Login from "./components/Login";
 import Chat from "./components/Chat";
 import ErrorBoundary from "./components/ErrorBoundary";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
-    basename: "/",
+    path: "/",
     element: <Login />,
     errorElement:<ErrorBoundary />,
   },
