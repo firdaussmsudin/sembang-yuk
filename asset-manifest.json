@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/sembang-yuk/static/js/main.a1f9c54f.js",
+    "main.js": "/sembang-yuk/static/js/main.5b5c50a3.js",
     "index.html": "/sembang-yuk/index.html",
-    "main.a1f9c54f.js.map": "/sembang-yuk/static/js/main.a1f9c54f.js.map"
+    "main.5b5c50a3.js.map": "/sembang-yuk/static/js/main.5b5c50a3.js.map"
   },
   "entrypoints": [
-    "static/js/main.a1f9c54f.js"
+    "static/js/main.5b5c50a3.js"
   ]
 }
