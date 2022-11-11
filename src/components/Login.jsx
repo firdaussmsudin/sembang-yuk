@@ -14,7 +14,7 @@ import io from "socket.io-client";
 
 const CssTextField = styled(TextField)({});
 
-// const socket = io.connect("http://localhost:3001");  for devolopment
+// const socket = io.connect("http://localhost:3001"); 
 const socket = io.connect("https://sembang-yuk-backend.onrender.com/"); 
 
 function Login() {
