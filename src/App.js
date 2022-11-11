@@ -4,7 +4,7 @@ import Chat from "./components/Chat";
 
 const router = createBrowserRouter([
   {
-    path: "https://firdaussmsudin.github.io/sembang-yuk/",
+    basename: "/",
     element: <Login />,
   },
   {
