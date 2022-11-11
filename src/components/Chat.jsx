@@ -32,7 +32,7 @@ function Chat() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    // socket = io.connect("http://localhost:3001");
+    // socket = io.connect("http://localhost:3001"); for development
     socket = io.connect("https://sembang-yuk-backend.onrender.com/"); 
 
     const data = {
